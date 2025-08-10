@@ -327,6 +327,6 @@ validateConfig(FrameworkSettings)
 
 Now that you understand configuration:
 
-- 🏗️ **[Learn about Services](/docs/core-concepts/services)** - Create your first service
-- 🎮 **[Explore Controllers](/docs/core-concepts/controllers)** - Handle client-side logic
-- 🧩 **[Use Built-in Modules](/docs/modules/logger)** - Leverage framework features
+- 🏗️ **[Learn about Services](/docs/getting-started/quick-start)** - Create your first service
+- 🎮 **[Explore Controllers](/docs/getting-started/quick-start)** - Handle client-side logic
+- 🧩 **[Use Built-in Modules](/docs/examples)** - See real-world examples

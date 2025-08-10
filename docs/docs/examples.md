@@ -684,6 +684,6 @@ These examples demonstrate the power and flexibility of Yippy Framework. Use the
 Ready to build your own game?
 
 - 🚀 **[Get Started](/docs/getting-started/installation)** - Set up the framework
-- 📖 **[Core Concepts](/docs/core-concepts/services)** - Learn the fundamentals  
-- 🧩 **[Built-in Modules](/docs/modules/logger)** - Explore available tools
-- 🔧 **[API Reference](/docs/api/intro)** - Detailed function documentation
+- 📖 **[Getting Started](/docs/getting-started/quick-start)** - Learn the fundamentals  
+- 🧩 **[Project Structure](/docs/getting-started/project-structure)** - Organize your code
+- 🔧 **[Configuration](/docs/getting-started/configuration)** - Customize the framework

@@ -169,8 +169,8 @@ You should see:
 
 Now that you have the basics working:
 
-- 📚 **[Learn Core Concepts](/docs/core-concepts/services)** - Understand services, controllers, and components
-- 🧩 **[Explore Built-in Modules](/docs/modules/logger)** - Discover what's available
+- 📚 **[Learn More](/docs/getting-started/project-structure)** - Understand project organization
+- 🧩 **[Explore Examples](/docs/examples)** - See real-world implementations
 - 🎯 **[See Examples](/docs/examples)** - Real-world usage patterns
 - ⚙️ **[Configure Framework](/docs/getting-started/configuration)** - Customize to your needs
 

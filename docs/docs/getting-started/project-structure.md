@@ -229,6 +229,6 @@ If you're migrating from another framework:
 
 Now that you understand the structure:
 
-- 🏗️ **[Create your first service](/docs/core-concepts/services)**
-- 🎮 **[Build a controller](/docs/core-concepts/controllers)**
+- 🏗️ **[Create your first service](/docs/getting-started/quick-start)**
+- 🎮 **[Build a controller](/docs/getting-started/quick-start)**
 - ⚙️ **[Configure the framework](/docs/getting-started/configuration)**
