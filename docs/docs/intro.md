@@ -6,8 +6,6 @@ sidebar_position: 1
 
 **Yippy Framework** is a powerful, modular framework for Roblox game development that provides a comprehensive set of tools and utilities to streamline your development process.
 
-![Yippy Framework Banner](/img/yippy-banner.png)
-
 ## What is Yippy Framework?
 
 Yippy Framework is designed to provide Roblox developers with:
