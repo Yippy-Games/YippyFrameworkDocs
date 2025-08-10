@@ -1,0 +1,7 @@
+{
+    "name": "topbarplus",
+    "globIgnorePaths": ["**/PackageLink.model.json"],
+    "tree": {
+      "$path": "src"
+    }
+  }

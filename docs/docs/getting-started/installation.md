@@ -89,4 +89,4 @@ attempt to call a nil value
 - Ensure you're using the latest version
 - Remove any old framework installations
 
-For more help, visit our [Troubleshooting](/docs/troubleshooting) guide.
+For more help, check the [Examples](/docs/examples) or review the [Configuration](/docs/getting-started/configuration) guide.

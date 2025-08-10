@@ -1,0 +1,35 @@
+{
+    "YippyProduct": {
+        "prefix": "yippyproduct",
+        "body": [
+            "--[[\r",
+            "__  ___                              ______\r",
+            "\\ \\/ (_)___  ____  ____  __  __   / ____/___ _____ ___  ___  _____\r",
+            " \\  / / __ \\/ __ \\/ __ \\/ / / /  / / __/ __ / __ __ \\/ _ \\/ ___/\r",
+            " / / / /_/ / /_/ / /_/ / /_/ /  / /_/ / /_/ / / / / / /  __(__  )\r",
+            "/_/_/ .___/ .___/ .___/\\__, /   \\____/\\__,_/_/ /_/ /_/\\___/____/\r",
+            "   /_/   /_/   /_/    /____/\r",
+            "--]]\r\r",
+            "--= Roblox Services =--\r",
+            "local ReplicatedFirst = game:GetService('ReplicatedFirst')\r",
+            "--= Modules & Config =--\r",
+            "local Framework = require(ReplicatedFirst.Framework)\r",
+            "--= Framework =--\r",
+            "local ${1:$TM_FILENAME_BASE} = {}\r",
+            "--= Framework API =--\r\r",
+            "${1:$TM_FILENAME_BASE}.Index = ${2:1}\r",
+            "${1:$TM_FILENAME_BASE}.Name = \"${1:$TM_FILENAME_BASE}\"\r",
+            "${1:$TM_FILENAME_BASE}.ProductId = ${3:1}\r\r",
+            "function ${1:$TM_FILENAME_BASE}:ClientCheck()\r",
+            "\treturn true\r",
+            "end\r\r",
+            "function ${1:$TM_FILENAME_BASE}:ServerCheck()\r",
+            "\treturn true\r",
+            "end\r\r",
+            "function ${1:$TM_FILENAME_BASE}:Redeem()\r",
+            "end\r\r",
+            "return ${1:$TM_FILENAME_BASE}"
+        ],
+        "description": "Product template"
+    }
+}
