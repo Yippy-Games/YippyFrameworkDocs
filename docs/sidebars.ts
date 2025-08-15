@@ -16,17 +16,13 @@ const sidebars: SidebarsConfig = {
   // Main documentation sidebar
   tutorialSidebar: [
     'intro',
-    {
-      type: 'category',
-      label: 'Getting Started',
-      items: [
-        'getting-started/installation',
-        'getting-started/quick-start',
-        'getting-started/project-structure',
-        'getting-started/configuration',
-      ],
-    },
-    'examples',
+    'about',
+    'getting-started',
+    'services',
+    'controllers',
+    'built-ins',
+    'components',
+    'vscode-snippets',
   ],
 };
 

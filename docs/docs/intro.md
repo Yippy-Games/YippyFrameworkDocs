@@ -12,12 +12,12 @@ sidebar_position: 1
 
 Yippy Framework is designed to provide Roblox developers with:
 
-- 🚀 **Fast Development** - Pre-built modules for common game systems
-- 🏗️ **Modular Architecture** - Use only what you need
-- 🔧 **Developer Tools** - Built-in debugging and command systems
-- 📱 **Cross-Platform** - Works seamlessly across all Roblox platforms
-- 🎨 **Modern UI** - Beautiful notification and UI systems
-- 🔒 **Data Safety** - Robust data storage with ProfileService integration
+- **Fast Development** - Pre-built modules for common game systems
+- **Modular Architecture** - Use only what you need
+- **Developer Tools** - Built-in debugging and command systems
+- **Cross-Platform** - Works seamlessly across all Roblox platforms
+- **Modern UI** - Beautiful notification and UI systems
+- **Data Safety** - Robust data storage with ProfileService integration
 
 ## Key Features
 
@@ -61,10 +61,10 @@ return MyService
 
 ## Community & Support
 
-- 🌟 **[GitHub Repository](https://github.com/rask/YippyFrameworkDocs)** - Source code and issues
-- 👥 **[Roblox Group](https://www.roblox.com/groups/34305087)** - Official Yippy Games group
-- 💬 **[DevForum](https://devforum.roblox.com/)** - Roblox developer community
-- 📚 **[Examples](/docs/examples)** - Ready-to-use code examples
+- **[GitHub Repository](https://github.com/rask/YippyFrameworkDocs)** - Source code and issues
+- **[Roblox Group](https://www.roblox.com/groups/34305087)** - Official Yippy Games group
+- **[DevForum](https://devforum.roblox.com/)** - Roblox developer community
+- **[Examples](/docs/examples)** - Ready-to-use code examples
 
 ## Ready to Get Started?
 

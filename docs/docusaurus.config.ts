@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Yippy Framework',
-  tagline: 'A powerful, modular framework for Roblox game development',
+  title: 'YippyFramework Docs',
+  tagline: 'Complete game development system for rapid prototyping',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://rask.github.io',
+  url: 'https://yippy-games.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/YippyFrameworkDocs/',
+  baseUrl: '/Yippy-Framework/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'rask', // Usually your GitHub org/user name.
-  projectName: 'YippyFrameworkDocs', // Usually your repo name.
+  organizationName: 'Yippy-Games', // Usually your GitHub org/user name.
+  projectName: 'Yippy-Framework', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/rask/YippyFrameworkDocs/tree/main/docs/',
+            'https://github.com/Yippy-Games/Yippy-Framework/tree/main/docs/',
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +56,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/rask/YippyFrameworkDocs/tree/main/docs/',
+            'https://github.com/Yippy-Games/Yippy-Framework/tree/main/docs/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -69,11 +69,27 @@ const config: Config = {
     ],
   ],
 
+
+
+
+
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        indexPages: true,
+        docsRouteBasePath: "/docs",
+        language: ["en"],
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Yippy Framework',
+      title: 'YippyFramework Docs',
       logo: {
         alt: 'Yippy Framework Logo',
         src: 'img/logo.svg',
@@ -85,88 +101,50 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/rask/YippyFrameworkDocs',
-          label: 'GitHub',
-          position: 'right',
+          to: '/api',
+          label: 'API',
+          position: 'left'
         },
         {
-          type: 'html',
+          to: '/changelog',
+          label: 'Changelog',
+          position: 'left'
+        },
+        {
+          href: 'https://github.com/Yippy-Games/Yippy-Framework',
+          label: 'GitHub',
           position: 'right',
-          value: '<iframe src="https://ghbtns.com/github-btn.html?user=rask&repo=YippyFrameworkDocs&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub Stars"></iframe>',
         },
       ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Documentation',
-          items: [
-            {
-              label: 'Getting Started',
-              to: '/docs/intro',
-            },
-            {
-              label: 'Examples',
-              to: '/docs/examples',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Roblox DevForum',
-              href: 'https://devforum.roblox.com/',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/roblox-developers',
-            },
-            {
-              label: 'Roblox Creator Hub',
-              href: 'https://create.roblox.com/',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/rask/YippyFrameworkDocs',
-            },
-            {
-              label: 'Roblox Group',
-              href: 'https://www.roblox.com/groups/34305087',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Yippy Games. Built with Docusaurus.`,
+      copyright: `Copyright © 2025 YippyGames dev team.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['lua'],
     },
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-    // algolia: {
-    //   // You'll need to configure this with your own Algolia app if you want search
-    //   appId: 'YOUR_APP_ID',
-    //   apiKey: 'YOUR_SEARCH_API_KEY',
-    //   indexName: 'YOUR_INDEX_NAME',
-    //   contextualSearch: true,
-    // },
+    // Built-in search functionality
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
+    // Enable the local search
+    metadata: [
+      {name: 'keywords', content: 'yippy, framework, roblox, game development, lua'},
+    ],
+
+
   } satisfies Preset.ThemeConfig,
 };
 

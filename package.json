@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@docusaurus/theme-search-algolia": "^3.8.1",
+    "@easyops-cn/docusaurus-search-local": "^0.52.1"
+  }
+}
